@@ -1,0 +1,10 @@
+main {
+    background-color: white;
+    width: 100%;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 14px;
+
+    box-shadow: 2px 5px 0 rgba(0, 0, 0, 0.317);
+}

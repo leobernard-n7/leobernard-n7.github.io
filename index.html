@@ -20,10 +20,14 @@
     <a href="career.html">Career Development</a>
   </nav>
   <main>
-    <h1>Léo Bernard</h1>
+    <!-- <h1>Léo Bernard</h1> -->
+    <img src="assets/hileo.png" alt="Drawing of Léo" class="leo-drawing"/>
+    <img src="assets/leo_bernard.svg" alt="Léo Bernard" class="img-title"/>
     <h3>Student at ENSEEIHT, gamedev and artist</h3>
     <p>
-      Hi! I'm Léo.<br>
+      Hi! I'm Léo.
+    </p>
+    <p>
       I am currently a student at ENSEEIHT in Toulouse, studying
       computer science and mathematics. I am deeply passionate about video game development. 
       I believe that creating things is deeply human, as it is a reflection of our soul and passion.
@@ -43,9 +47,35 @@
     align-items: center;
   }
   
-  h1 {
+  h1 { 
     margin-top: 0;
     margin-bottom: 0;
     font-size: 100px;
+
+    color: #487d72;
+
+    overflow: visible;
+
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black; */
+  }
+
+  .leo-drawing {
+    position: absolute;
+    top: 70px;
+
+    height: 200px;
+    z-index: 0;
+  }
+  
+  .img-title {
+    margin-top: 100px;
+    z-index: 1;
+
+    height: 90px;
+  }
+
+  h3 {
+    text-align: center;
   }
 </style>
