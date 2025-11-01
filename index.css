@@ -8,10 +8,18 @@ nav {
   text-align: center;
 
   padding: 30px;
-  gap: 40px;
+  gap: 20px;
 }
 nav a {
-  color: #2b2542;
+  color: white;
+  background-color: #2b2542;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  border-radius: 100px;
+  box-shadow: 2px 5px 0 rgba(0, 0, 0, 0.317);
+
 }
 
 body {
@@ -62,4 +70,8 @@ h3 {
 
 p {
   width: 100%;
+}
+
+a {
+  color: #5fab62;
 }
